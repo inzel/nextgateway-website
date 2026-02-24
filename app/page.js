@@ -259,6 +259,113 @@ export default function Home() {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="py-24 bg-gradient-to-b from-black to-gray-900">
+        <div className="max-w-4xl mx-auto px-6">
+          <h2 className="text-4xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+          
+          <div className="space-y-6">
+            <div className="bg-white/5 border border-white/10 rounded-xl p-8">
+              <h3 className="text-2xl font-bold mb-4">What is Generative Engine Optimization (GEO)?</h3>
+              <p className="text-gray-300 leading-relaxed">
+                Generative Engine Optimization (GEO) is the practice of optimizing your content and online presence so AI platforms like ChatGPT, Perplexity, and Google Gemini cite and recommend your business when users ask relevant questions. Unlike traditional SEO which focuses on ranking in search results, GEO focuses on being selected as one of the 2-7 sources AI platforms cite in their responses.
+              </p>
+            </div>
+
+            <div className="bg-white/5 border border-white/10 rounded-xl p-8">
+              <h3 className="text-2xl font-bold mb-4">How does GEO differ from SEO?</h3>
+              <p className="text-gray-300 leading-relaxed">
+                Traditional SEO optimizes for keyword rankings and aims to appear in Google's top 10 results. GEO optimizes for AI comprehension and citation selection. AI platforms only cite 2-7 sources per response (vs. Google's 10+ links), prioritize different signals (third-party mentions, structured data, E-E-A-T), and make autonomous recommendations rather than just showing options. GEO requires understanding how AI models ingest data, select sources, and build trust.
+              </p>
+            </div>
+
+            <div className="bg-white/5 border border-white/10 rounded-xl p-8">
+              <h3 className="text-2xl font-bold mb-4">Why does AI visibility matter for my business?</h3>
+              <p className="text-gray-300 leading-relaxed">
+                58% of users have replaced Google with AI platforms for product research, and 89% of B2B buyers use generative AI during purchasing decisions. If your business isn't being cited by ChatGPT, Perplexity, or Gemini when prospects ask for recommendations in your category, you're invisible to the fastest-growing segment of search behavior. Early movers establish citation authority that compounds over time.
+              </p>
+            </div>
+
+            <div className="bg-white/5 border border-white/10 rounded-xl p-8">
+              <h3 className="text-2xl font-bold mb-4">How quickly can I see GEO results?</h3>
+              <p className="text-gray-300 leading-relaxed">
+                Initial improvements typically appear within 4-8 weeks as we optimize content structure, implement schema markup, and build citation signals. Significant authority (consistent AI citations across multiple platforms) usually develops over 3-6 months as third-party mentions, original content, and topic authority compound. GEO is faster than traditional SEO but still requires sustained effort.
+              </p>
+            </div>
+
+            <div className="bg-white/5 border border-white/10 rounded-xl p-8">
+              <h3 className="text-2xl font-bold mb-4">What's included in a free GEO audit?</h3>
+              <p className="text-gray-300 leading-relaxed">
+                Our free audit includes: AI citation testing (we query ChatGPT, Perplexity, Claude, and Gemini with relevant questions to see if you're cited), content structure analysis (FAQ sections, schema markup, Q&A formatting), authority signal evaluation (Reddit mentions, reviews, third-party citations), and a prioritized opportunity map showing quick wins vs. long-term strategies. Results delivered within 24-48 hours.
+              </p>
+            </div>
+
+            <div className="bg-white/5 border border-white/10 rounded-xl p-8">
+              <h3 className="text-2xl font-bold mb-4">Do I need to commit to a long-term contract?</h3>
+              <p className="text-gray-300 leading-relaxed">
+                No long-term contracts required. Our services are month-to-month, though GEO is most effective as a sustained strategy (3-6 months minimum to establish authority). Founding clients who join at our 50% discount rate lock in that pricing for 12 months, but can cancel anytime without penalty.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* FAQ Schema - Hidden but parseable by AI */}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is Generative Engine Optimization (GEO)?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Generative Engine Optimization (GEO) is the practice of optimizing your content and online presence so AI platforms like ChatGPT, Perplexity, and Google Gemini cite and recommend your business when users ask relevant questions. Unlike traditional SEO which focuses on ranking in search results, GEO focuses on being selected as one of the 2-7 sources AI platforms cite in their responses."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How does GEO differ from SEO?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Traditional SEO optimizes for keyword rankings and aims to appear in Google's top 10 results. GEO optimizes for AI comprehension and citation selection. AI platforms only cite 2-7 sources per response, prioritize different signals like third-party mentions and structured data, and make autonomous recommendations rather than just showing options."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Why does AI visibility matter for my business?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "58% of users have replaced Google with AI platforms for product research, and 89% of B2B buyers use generative AI during purchasing decisions. If your business isn't being cited by AI platforms when prospects ask for recommendations, you're invisible to the fastest-growing segment of search behavior."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How quickly can I see GEO results?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Initial improvements typically appear within 4-8 weeks. Significant authority usually develops over 3-6 months as third-party mentions, original content, and topic authority compound."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What's included in a free GEO audit?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Our free audit includes AI citation testing across ChatGPT, Perplexity, Claude, and Gemini, content structure analysis, authority signal evaluation, and a prioritized opportunity map. Results delivered within 24-48 hours."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do I need to commit to a long-term contract?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No long-term contracts required. Services are month-to-month. Founding clients lock in 50% discount pricing for 12 months but can cancel anytime without penalty."
+              }
+            }
+          ]
+        })}} />
+      </section>
+
       {/* CTA */}
       <section className="py-24 bg-black">
         <div className="max-w-4xl mx-auto px-6 text-center">

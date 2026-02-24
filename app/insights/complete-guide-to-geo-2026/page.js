@@ -305,6 +305,32 @@ export default function GEOGuide() {
             <Link href="/" className="text-blue-500 hover:text-blue-400">← Back to Home</Link>
           </div>
         </div>
+
+        {/* Article Schema */}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "The Complete Guide to Generative Engine Optimization (GEO) in 2026",
+          "description": "Everything you need to know about optimizing for AI-powered search platforms like ChatGPT, Perplexity, and Google Gemini.",
+          "author": {
+            "@type": "Organization",
+            "name": "NextGateway LLC"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "NextGateway LLC",
+            "url": "https://nextgateway.io"
+          },
+          "datePublished": "2026-02-17",
+          "dateModified": "2026-02-17",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://nextgateway.io/insights/complete-guide-to-geo-2026"
+          },
+          "keywords": ["Generative Engine Optimization", "GEO", "AI Visibility", "ChatGPT Citations", "AI Search", "Perplexity", "Google Gemini"],
+          "articleSection": "GEO Strategy",
+          "wordCount": 3900
+        })}} />
       </article>
     </div>
   )

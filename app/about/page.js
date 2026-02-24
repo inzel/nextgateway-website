@@ -208,10 +208,10 @@ export default function About() {
               Get Free Audit
             </Link>
             <Link 
-              href="/contact"
+              href="/audit"
               className="px-8 py-4 bg-white/10 hover:bg-white/20 text-white rounded-lg transition-all font-semibold border border-white/10"
             >
-              Contact Us
+              Start Here
             </Link>
           </div>
         </section>

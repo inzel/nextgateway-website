@@ -136,6 +136,47 @@ export default function Services() {
             </Link>
           </div>
         </div>
+
+        {/* Services FAQ */}
+        <div className="mt-24">
+          <h2 className="text-3xl font-bold mb-8 text-center">Common Questions About GEO Services</h2>
+          <div className="max-w-4xl mx-auto space-y-6">
+            <div className="bg-white/5 border border-white/10 rounded-xl p-6">
+              <h3 className="text-xl font-bold mb-3">How much does GEO cost?</h3>
+              <p className="text-gray-300">
+                Our GEO consulting starts at $750/month for the Foundation package, $2,500/month for Growth, and custom pricing for Enterprise. Founding clients (first 5) get 50% off for 12 months. All plans are month-to-month with no long-term contracts required.
+              </p>
+            </div>
+
+            <div className="bg-white/5 border border-white/10 rounded-xl p-6">
+              <h3 className="text-xl font-bold mb-3">What's included in a GEO audit?</h3>
+              <p className="text-gray-300">
+                Our free audit includes AI citation testing (testing your domain across ChatGPT, Perplexity, Claude, and Gemini), content structure analysis, authority signal evaluation, competitor benchmarking, and a prioritized opportunity map. Results are delivered within 24-48 hours as a detailed report.
+              </p>
+            </div>
+
+            <div className="bg-white/5 border border-white/10 rounded-xl p-6">
+              <h3 className="text-xl font-bold mb-3">How long does GEO take to show results?</h3>
+              <p className="text-gray-300">
+                Initial improvements (content optimization, schema implementation) can be completed in 2-4 weeks. You'll typically see your first AI citations within 4-8 weeks. Significant authority (consistent citations across multiple platforms and queries) develops over 3-6 months as citation signals compound.
+              </p>
+            </div>
+
+            <div className="bg-white/5 border border-white/10 rounded-xl p-6">
+              <h3 className="text-xl font-bold mb-3">What makes NextGateway different from SEO agencies?</h3>
+              <p className="text-gray-300">
+                We're founded by infrastructure engineers with 20+ years scaling systems for Fortune 500 technology companies, not marketers. We understand how AI models work at the protocol level, use first-principles thinking rather than generic playbooks, and focus specifically on AI platform citations rather than traditional search rankings.
+              </p>
+            </div>
+
+            <div className="bg-white/5 border border-white/10 rounded-xl p-6">
+              <h3 className="text-xl font-bold mb-3">Do you work with businesses in my industry?</h3>
+              <p className="text-gray-300">
+                We work with B2B companies across all industries, from startups to mid-market to enterprise. Our GEO approach is customized to your specific category, target audience, and competitive landscape. We're currently focused on B2B SaaS, professional services, and technology companies.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
