@@ -5,10 +5,18 @@ export default function Services() {
     <div className="min-h-screen bg-black text-white">
       <nav className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-xl border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-5">
-          <Link href="/" className="text-xl font-bold">
-            <span className="text-white">Next</span>
-            <span className="text-gray-400">Gateway</span>
-          </Link>
+          <div className="flex items-center justify-between">
+            <Link href="/" className="text-xl font-bold">
+              <span className="text-white">Next</span>
+              <span className="text-gray-400">Gateway</span>
+            </Link>
+            <div className="hidden md:flex gap-6 items-center">
+              <Link href="/services" className="text-gray-300 hover:text-white">Services</Link>
+              <Link href="/insights" className="text-gray-300 hover:text-white">Insights</Link>
+              <Link href="/about" className="text-gray-300 hover:text-white">About</Link>
+              <Link href="/audit" className="px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg">Free Audit</Link>
+            </div>
+          </div>
         </div>
       </nav>
 
