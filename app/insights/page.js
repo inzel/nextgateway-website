@@ -23,8 +23,8 @@ export default function Insights() {
       excerpt: 'InfiniBand vs. Ethernet, GPU clustering challenges, and the networking constraints limiting AI compute.',
       category: 'AI Infrastructure',
       readTime: '10 min read',
-      date: 'Coming Soon',
-      slug: null
+      date: 'Feb 24, 2026',
+      slug: '/insights/network-infrastructure-bottleneck-ai'
     }
   ]
 
