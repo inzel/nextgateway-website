@@ -12,11 +12,11 @@ export default function Insights() {
     },
     {
       title: 'AI Data Center Buildout: $625B in Hyperscaler CapEx and What It Means',
-      excerpt: 'A deep-dive into the infrastructure investment powering the AI revolution and where the bottlenecks are.',
+      excerpt: 'The largest infrastructure investment since the Interstate Highway System—and why power, not GPUs, is the real constraint.',
       category: 'AI Infrastructure',
       readTime: '12 min read',
-      date: 'Coming Soon',
-      slug: null
+      date: 'Feb 24, 2026',
+      slug: '/insights/ai-data-center-buildout-625b'
     },
     {
       title: 'Why Network Infrastructure is the Bottleneck in AI Scale',
