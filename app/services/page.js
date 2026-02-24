@@ -26,6 +26,75 @@ export default function Services() {
           GEO consulting to drive business growth, and AI infrastructure intelligence
         </p>
 
+        {/* Founding Client Special */}
+        <div className="bg-gradient-to-r from-blue-600/20 to-blue-800/20 border border-blue-500/30 rounded-2xl p-8 mb-16">
+          <div className="flex items-start gap-4 mb-4">
+            <div className="text-4xl">🚀</div>
+            <div>
+              <h2 className="text-3xl font-bold mb-2">Founding Client Special</h2>
+              <p className="text-gray-300 text-lg">Limited to the first 5 clients</p>
+            </div>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-6 mt-6">
+            <div className="bg-black/30 rounded-xl p-6">
+              <div className="text-sm text-blue-400 font-semibold mb-2">FOUNDATION</div>
+              <div className="text-3xl font-bold mb-2">
+                $375<span className="text-lg text-gray-400">/mo</span>
+                <span className="ml-3 text-sm line-through text-gray-500">$750/mo</span>
+              </div>
+              <div className="text-green-400 font-semibold text-sm">Save 50% · Rate locked for 12 months</div>
+            </div>
+            
+            <div className="bg-black/30 rounded-xl p-6">
+              <div className="text-sm text-blue-400 font-semibold mb-2">GROWTH</div>
+              <div className="text-3xl font-bold mb-2">
+                $1,250<span className="text-lg text-gray-400">/mo</span>
+                <span className="ml-3 text-sm line-through text-gray-500">$2,500/mo</span>
+              </div>
+              <div className="text-green-400 font-semibold text-sm">Save 50% · Rate locked for 12 months</div>
+            </div>
+          </div>
+
+          <div className="mt-6 p-4 bg-black/30 rounded-lg">
+            <p className="text-gray-300 mb-3">
+              <strong className="text-white">In exchange for the founding rate,</strong> you'll help us build case studies and provide feedback on our process. This helps us refine our approach while you get exceptional value.
+            </p>
+            <ul className="space-y-2 text-sm text-gray-300">
+              <li className="flex items-start">
+                <span className="text-blue-400 mr-2">✓</span>
+                <span>Detailed case study documenting your results</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-blue-400 mr-2">✓</span>
+                <span>Testimonial for our website (with your approval)</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-blue-400 mr-2">✓</span>
+                <span>Monthly feedback sessions to improve our process</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-blue-400 mr-2">✓</span>
+                <span>First access to new features and services</span>
+              </li>
+            </ul>
+          </div>
+
+          <div className="mt-6 text-center">
+            <Link 
+              href="/audit" 
+              className="inline-block px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-semibold text-lg transition-all"
+            >
+              Start with Free Audit →
+            </Link>
+            <p className="text-xs text-gray-400 mt-3">Spots filling fast · Only 5 available</p>
+          </div>
+        </div>
+
+        {/* Regular Pricing */}
+        <h2 className="text-3xl font-bold mb-8">Standard Pricing</h2>
+        <p className="text-gray-400 mb-8">After founding client spots are filled</p>
+
         <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-white/5 border border-white/10 rounded-xl p-8">
             <h3 className="text-2xl font-bold mb-4">Foundation</h3>

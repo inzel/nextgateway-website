@@ -194,6 +194,71 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Why NextGateway - Trust Signals */}
+      <section className="py-24 bg-black">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Why Trust NextGateway?</h2>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+              Founded by engineers with 20+ years of infrastructure experience, not marketers chasing trends
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <div className="bg-white/5 border border-white/10 rounded-xl p-8">
+              <div className="w-12 h-12 bg-blue-600/20 rounded-lg flex items-center justify-center mb-4">
+                <span className="text-2xl">🔧</span>
+              </div>
+              <h3 className="text-xl font-bold mb-3">Technical Expertise</h3>
+              <p className="text-gray-300 leading-relaxed">
+                Founded by a network engineer with 20+ years experience, including 14+ years at F5 Networks. Multiple certifications (F5, AWS, Google Cloud). We understand infrastructure at the protocol level.
+              </p>
+            </div>
+
+            <div className="bg-white/5 border border-white/10 rounded-xl p-8">
+              <div className="w-12 h-12 bg-blue-600/20 rounded-lg flex items-center justify-center mb-4">
+                <span className="text-2xl">🧠</span>
+              </div>
+              <h3 className="text-xl font-bold mb-3">First-Principles Approach</h3>
+              <p className="text-gray-300 leading-relaxed">
+                We don't follow generic playbooks. We analyze how AI models actually work—how they select sources, rank citations, and build trust—then optimize based on those mechanisms.
+              </p>
+            </div>
+
+            <div className="bg-white/5 border border-white/10 rounded-xl p-8">
+              <div className="w-12 h-12 bg-blue-600/20 rounded-lg flex items-center justify-center mb-4">
+                <span className="text-2xl">📊</span>
+              </div>
+              <h3 className="text-xl font-bold mb-3">Transparent Process</h3>
+              <p className="text-gray-300 leading-relaxed">
+                See exactly what we do and why. Track AI citation frequency, source attribution patterns, and topic authority signals with clear metrics tied to business outcomes.
+              </p>
+            </div>
+
+            <div className="bg-white/5 border border-white/10 rounded-xl p-8">
+              <div className="w-12 h-12 bg-blue-600/20 rounded-lg flex items-center justify-center mb-4">
+                <span className="text-2xl">🎯</span>
+              </div>
+              <h3 className="text-xl font-bold mb-3">Risk-Free Start</h3>
+              <p className="text-gray-300 leading-relaxed">
+                Our free GEO audit demonstrates our approach before you commit to anything. See the quality of our analysis and understand exactly how we can help.
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-12 text-center">
+            <div className="inline-block px-8 py-4 bg-blue-900/20 border border-blue-500/30 rounded-xl">
+              <p className="text-gray-300">
+                <strong className="text-white">🚀 Founding Client Special:</strong> First 5 clients get 50% off for 12 months
+              </p>
+              <Link href="/services" className="text-blue-400 hover:text-blue-300 text-sm font-semibold">
+                Learn more →
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-24 bg-black">
         <div className="max-w-4xl mx-auto px-6 text-center">
