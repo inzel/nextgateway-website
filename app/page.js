@@ -200,7 +200,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Why Trust NextGateway?</h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Founded by engineers with 20+ years of infrastructure experience, not marketers chasing trends
+              Founded by an engineer with 20+ years scaling infrastructure for Fortune 500 technology companies
             </p>
           </div>
 
@@ -211,7 +211,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold mb-3">Technical Expertise</h3>
               <p className="text-gray-300 leading-relaxed">
-                Founded by a network engineer with 20+ years experience, including 14+ years at F5 Networks. Multiple certifications (F5, AWS, Google Cloud). We understand infrastructure at the protocol level.
+                Founded by an infrastructure engineer with 20+ years experience scaling systems for Fortune 500 technology companies. Cloud platform certifications (AWS, Google Cloud). We understand systems at the protocol level.
               </p>
             </div>
 

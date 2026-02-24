@@ -31,7 +31,7 @@ export default function About() {
           <h2 className="text-3xl font-bold mb-6">Founded by Engineers, Not Marketers</h2>
           <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
             <p>
-              NextGateway was founded by a network engineer with over 20 years of experience designing and operating infrastructure at scale. After spending 14+ years at F5 Networks—a leader in application delivery and security—we noticed something fundamental changing in how businesses get discovered online.
+              NextGateway was founded by an infrastructure engineer with over 20 years of experience designing and scaling systems for Fortune 500 technology companies. After spending decades optimizing how data flows through enterprise infrastructure, we noticed something fundamental changing in how businesses get discovered online.
             </p>
             <p>
               While using AI platforms like ChatGPT, Perplexity, and Gemini, we observed that certain websites were being cited and recommended without any deliberate search intent. Traditional SEO wasn't determining these results. Something new was happening—AI platforms were making autonomous decisions about which sources to trust and recommend.
@@ -44,7 +44,7 @@ export default function About() {
 
         {/* Why Our Background Matters */}
         <section className="mb-16 bg-white/5 border border-white/10 rounded-2xl p-8">
-          <h2 className="text-3xl font-bold mb-6">Why Network Engineering Experience Matters for GEO</h2>
+          <h2 className="text-3xl font-bold mb-6">Why Infrastructure Engineering Experience Matters for GEO</h2>
           <div className="space-y-4">
             <p className="text-gray-300">
               Most "GEO experts" are SEO agencies rebranding their services. They understand keywords and backlinks, but they don't understand how AI systems actually work at the infrastructure level.
@@ -62,7 +62,7 @@ export default function About() {
               <li className="flex items-start">
                 <span className="text-blue-500 font-bold mr-3 mt-1">→</span>
                 <span className="text-gray-300">
-                  <strong className="text-white">Infrastructure at scale:</strong> 20+ years designing networks for enterprise systems means we understand reliability, performance, and what actually works under load.
+                  <strong className="text-white">Infrastructure at scale:</strong> Decades designing systems for Fortune 500 companies means we understand reliability, performance, and what actually works under pressure.
                 </span>
               </li>
               <li className="flex items-start">
@@ -160,10 +160,10 @@ export default function About() {
         <section className="mb-16 bg-blue-900/20 border border-blue-500/30 rounded-2xl p-8">
           <h2 className="text-2xl font-bold mb-4">Technical Credentials</h2>
           <div className="space-y-3 text-gray-300">
-            <p>✓ 20+ years network engineering experience</p>
-            <p>✓ 14+ years at F5 Networks (application delivery & security infrastructure)</p>
-            <p>✓ Multiple certifications: F5, AWS, Google Cloud</p>
-            <p>✓ Deep expertise in infrastructure at scale</p>
+            <p>✓ 20+ years infrastructure engineering experience</p>
+            <p>✓ Decades scaling systems for Fortune 500 technology companies</p>
+            <p>✓ Cloud platform certifications (AWS, Google Cloud)</p>
+            <p>✓ Deep expertise in enterprise-scale infrastructure</p>
           </div>
         </section>
 
