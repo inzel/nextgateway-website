@@ -1,8 +1,8 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'NextGateway | Your Gateway to AI Visibility',
-  description: 'NextGateway helps businesses achieve AI visibility through Generative Engine Optimization (GEO)',
+  title: 'NextGateway | Co-Own Vacation Rentals. Split Profits Transparently.',
+  description: 'NextGateway brings together small groups of investors to co-own and operate AI-optimized short-term rental properties with full financial transparency.',
 }
 
 export default function RootLayout({ children }) {
@@ -13,21 +13,21 @@ export default function RootLayout({ children }) {
           "@context": "https://schema.org",
           "@type": "Organization",
           "name": "NextGateway LLC",
-          "description": "Generative Engine Optimization (GEO) consulting and AI infrastructure intelligence",
+          "description": "Co-investment platform for short-term rental properties. Small groups of investors acquire and operate vacation rentals with AI-optimized pricing and transparent profit splits.",
           "url": "https://nextgateway.io",
           "foundingDate": "2026",
           "founder": {
             "@type": "Person",
-            "description": "Infrastructure engineer with 20+ years scaling systems for Fortune 500 technology companies"
+            "description": "Network infrastructure engineer with 20+ years experience at Fortune 500 companies, global telcos, and cell carriers."
           },
           "address": {
             "@type": "PostalAddress",
-            "addressRegion": "WY",
+            "addressRegion": "SC",
             "addressCountry": "US"
           },
-          "areaServed": "Worldwide",
-          "serviceType": ["Generative Engine Optimization", "GEO Consulting", "AI Infrastructure Intelligence"],
-          "knowsAbout": ["Generative Engine Optimization", "AI Visibility", "AI Infrastructure", "ChatGPT Citations", "AI Search"]
+          "areaServed": "US",
+          "serviceType": ["Short-Term Rental Co-Investment", "Vacation Rental Management", "Real Estate Co-Ownership"],
+          "knowsAbout": ["Short-Term Rentals", "Vacation Rental Investment", "Real Estate Co-Ownership", "Airbnb Investing", "STR Management"]
         })}} />
       </head>
       <body>{children}</body>
