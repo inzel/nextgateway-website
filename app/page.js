@@ -731,9 +731,9 @@ export default function Home() {
                 <p className="ng-dash-rev-change">↑ 12% vs last month</p>
                 <div className="ng-splits">
                   {[
-                    { name: 'Colin L.', pct: '33%', amt: '$1,270', muted: false },
-                    { name: 'Marcus R.', pct: '33%', amt: '$1,270', muted: false },
-                    { name: 'Jamie T.', pct: '33%', amt: '$1,270', muted: false },
+                    { name: 'Investor A', pct: '33%', amt: '$1,270', muted: false },
+                    { name: 'Investor B', pct: '33%', amt: '$1,270', muted: false },
+                    { name: 'Investor C', pct: '33%', amt: '$1,270', muted: false },
                     { name: 'Expenses', pct: '29%', amt: '−$1,530', muted: true },
                   ].map((r, i) => (
                     <div className="ng-split-row" key={i} style={r.muted ? { opacity: 0.45 } : {}}>
@@ -785,11 +785,11 @@ export default function Home() {
         <div className="ng-founder-inner">
           <div className="fade-up" ref={fade(16)}>
             <p className="ng-founder-eyebrow">The Founder</p>
-            <h2 className="ng-founder-title">Built by an engineer.<br/>Backed by 20 years<br/>of Fortune 500 experience.</h2>
-            <p className="ng-founder-bio">NextGateway was founded by Colin, a network infrastructure engineer with over two decades of experience solving complex technical problems for Fortune 500 companies, global telcos, and cell carriers. He brings the same analytical rigor to real estate investing — and built NextGateway to do this the right way, transparently and with partners.</p>
+            <h2 className="ng-founder-title">Built by an investor.<br/>Backed by 20 years<br/>of enterprise experience.</h2>
+            <p className="ng-founder-bio">NextGateway was founded by someone who has spent over two decades solving complex technical and operational problems at scale — for Fortune 500 companies and global enterprises. That same analytical discipline drives how we evaluate markets, structure deals, and operate properties. We built NextGateway to do this the right way: transparently and with aligned partners.</p>
             <ul className="ng-cred-list">
               {[
-                '20+ years network engineering at enterprise scale',
+                '20+ years enterprise technology experience',
                 'AWS & Google Cloud certified',
                 'Active co-investor in NextGateway deals — not just a platform',
                 'South Carolina based, investing in top STR markets nationally',

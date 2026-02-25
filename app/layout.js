@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
           "foundingDate": "2026",
           "founder": {
             "@type": "Person",
-            "description": "Network infrastructure engineer with 20+ years experience at Fortune 500 companies, global telcos, and cell carriers."
+            "description": "Enterprise technology professional with 20+ years experience solving complex problems at scale for Fortune 500 companies and global enterprises."
           },
           "address": {
             "@type": "PostalAddress",
